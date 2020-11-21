@@ -7,7 +7,7 @@ def find_sub_string(str):
     a = 0
     a_ind = -1
     b = 9999999999
-    count = defaultdict(lambda: 0) 
+    count = defaultdict(int) 
     for i in range(str_siz): 
         count[str[i]] += 1
         if count[str[i]] == 1: 
